@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A service that automatically reorders items",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Layoolar/buyease.git"
+  },
+  "keywords": [
+    "Order",
+    "Buy",
+    "Reorder",
+    "Bottomless"
+  ],
+  "author": "Olayiwola Ayoola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Layoolar/buyease/issues"
+  },
+  "homepage": "https://github.com/Layoolar/buyease#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.0.1",
+    "mongoose": "^7.0.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
