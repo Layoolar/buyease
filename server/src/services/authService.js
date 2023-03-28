@@ -4,6 +4,7 @@ const { hashPassword } = require("../utils/authUtils");
 async function registerUser(userData) {
     const hashedPassword = await hashPassword(userData.password);
     const user = new User ({
+        _id : userData._id,
         name: userData.name,
         email: userData.email,
         phone: userData.phone,
@@ -11,7 +12,7 @@ async function registerUser(userData) {
         created: userData.createdAt,
         password: hashedPassword,
     })
-    return password;
+    return user;
 }
 
 module.exports = {

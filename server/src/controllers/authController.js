@@ -11,7 +11,8 @@ async function register(req, res) {
     }
 };
 
+const { login } = require("./loginController");
 
 module.exports = {
-  register,
+  register, login
 };

@@ -1,4 +1,20 @@
-const User = require('../models/User');
+const User = require('../models/user');
+const bcrypt = require('bcrypt');
+const dotenv = require('dotenv');
+const express = require('express');
+const session = require('express-session')
+const app = express();
+
+dotenv.config({ path: './.env' })
+
+app.use(session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true
+
+}));
+
+
 
 async function login(req, res) {
     try {
@@ -13,7 +29,7 @@ async function login(req, res) {
         const user = await User.findOne({ username });
 
         // Verify the user's password
-        if (!user || !user.verifyPassword(password)) {
+        if (!user || !(await bcrypt.compare(password, user.password))) {
             throw new Error('Invalid login credentials');
         }
 
