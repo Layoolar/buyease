@@ -1,4 +1,8 @@
 const mongoose = require("mongoose");
+const dotenv = require("dotenv")
+
+dotenv.config({path: "./.env"})
+
 
 async function connectToDatabase() {
   try {
@@ -12,7 +16,6 @@ async function connectToDatabase() {
     process.exit(1);
   }
 }
-
 module.exports = {
   connectToDatabase,
 };

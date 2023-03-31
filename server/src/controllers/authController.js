@@ -1,4 +1,5 @@
 const { registerUser } = require("../services/authService");
+const { login } = require("../services/loginService");
 
 async function register(req, res) {
     try {
@@ -11,7 +12,6 @@ async function register(req, res) {
     }
 };
 
-const { login } = require("./loginController");
 
 module.exports = {
   register, login
