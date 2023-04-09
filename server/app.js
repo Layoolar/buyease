@@ -38,3 +38,4 @@ app.use(
 app.use("/api/v1/auth", authRoutes);
 
 module.exports = app;
+app.listen(8000, ()=>console.log("server running on port 8000"))
