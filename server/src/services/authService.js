@@ -6,7 +6,14 @@ const validateUser = require("../utils/validations/signupValidation");
 async function registerUser(userData) {
         try {
             await validateUser(userData);
-            const hashedPassword = await hashPassword(userData.password);
+            const hashedPassword = await hashPassword("Maestro99").then(
+                (result) => {
+                    console.log(result)
+                }).catch(
+                (error) => {
+                    console.log(error)
+                }
+            );
             const user = new User ({
                 _id : userData._id,
                 name: userData.name,

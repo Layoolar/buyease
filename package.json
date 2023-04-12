@@ -8,6 +8,7 @@
     "express-validator": "^6.15.0",
     "express-winston": "^4.2.0",
     "helmet": "^6.1.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "session": "^0.1.0",
     "swagger-jsdoc": "^6.2.8",

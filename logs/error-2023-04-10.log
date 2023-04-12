@@ -1,0 +1,124 @@
+2023-04-10T12:13:14.681Z [buyease-api] error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/authServer.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-10T12:13:27.739Z [buyease-api] error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/authServer.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-10T12:13:39.217Z [buyease-api] error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/authServer.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-10T12:14:34.296Z [buyease-api] error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/authServer.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-10T12:14:43.041Z [buyease-api] error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/authServer.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-10T12:14:57.570Z [buyease-api] error: uncaughtException: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/authServer.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/authServer.js:1:13)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-10T16:20:40.346Z [buyease-api] error: uncaughtException: Missing catch or finally after try
+/home/psychval/buyease/server/src/routes/authRoutes.js:13
+    }
+    ^
+
+SyntaxError: Missing catch or finally after try
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/app.js:24:20)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)

@@ -8,15 +8,31 @@ const swaggerJSDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const { newTransport } = require("./documentation/winstonLogger");
 const { options } = require("./documentation/swaggerDocumentation");
-const connectToDatabase = require("./database/db");
+const {connectToDatabase} = require("./database/db");
 const app = express();
-require("dotenv").config();
 
-// connectToDatabase();
+
+// Body parser middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+
+require("dotenv").config({path:"./.env"});
+
+async function connectDb() { 
+  await connectToDatabase();
+}
+connectDb()
+
 // Routes Definition
-const authRoutes = require("./src/routes/authRoutes");
+const authRoutes = require("../server/src/routes/authRoutes");
+
+
 
 // Middlewares
+app.use('/auth', authRoutes)
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(helmet());
@@ -35,7 +51,6 @@ app.use(
 );
 
 // Routes
-app.use("/api/v1/auth", authRoutes);
 
 module.exports = app;
 app.listen(8000, ()=>console.log("server running on port 8000"))
