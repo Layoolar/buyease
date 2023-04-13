@@ -29,6 +29,11 @@
             "date": 1681302040852,
             "name": "logs/access-2023-04-12.log",
             "hash": "691fb5e63875b313e7cc1e58add4dd590a55a33d6dbd6b37ba714520bf416eda"
+        },
+        {
+            "date": 1681368945780,
+            "name": "logs/access-2023-04-13.log",
+            "hash": "aaab0acbb597b39735076767d8142802cb167f8ddb476dfc09dba5bdb2b6e208"
         }
     ],
     "hashType": "sha256"

@@ -4,7 +4,8 @@
   "description": "A service that automatically reorders items",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "devStart": "nodemon server/app.js"
   },
   "repository": {
     "type": "git",

@@ -9,6 +9,7 @@ async function connectToDatabase() {
     await mongoose.connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      dbName: "buyease_test_db"
     });
     console.log("Connected to MongoDB");
   } catch (error) {

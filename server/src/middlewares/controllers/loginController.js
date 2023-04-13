@@ -24,6 +24,8 @@ async function login(req, res) {
 
         // Find the user in the database by their email
         const user = await User.findOne({ email });
+        console.log(user)
+        console.log(password, user.password)
 
         // Verify the user's password
         if (!user || !(await bcrypt.compare(password, user.password))) {
@@ -32,6 +34,7 @@ async function login(req, res) {
 
         // Generate JWT for the user
         const token = auth.generateToken(user.toJSON())
+        console.log(token)
 
         res.json({ token })
     } catch (error) {

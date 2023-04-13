@@ -26,19 +26,19 @@ const userSchema = new mongoose.Schema({
 
 });
 
-const regex =new RegExp(String, 'i') 
+// const regex =new RegExp(String, 'i') 
 
-userSchema.statics.findByEmail = function(email) {
-  return this.find({email: regex})
-}
+// userSchema.statics.findByEmail = function(email) {
+//   return this.find({email: regex})
+// }
 
-userSchema.statics.findByPhone = function (phone) {
-  return this.find({ phone: regex})
-}
+// userSchema.statics.findByPhone = function (phone) {
+//   return this.find({ phone: regex})
+// }
 
-userSchema.statics.findByName = function (name) {
-  return this.find({ phone: regex })
-}
+// userSchema.statics.findByName = function (name) {
+//   return this.find({ phone: regex })
+// }
 
 
 const User = mongoose.model("User", userSchema);
