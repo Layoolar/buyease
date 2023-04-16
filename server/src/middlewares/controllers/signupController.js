@@ -6,7 +6,6 @@ async function register(req, res) {
     const userData = new User(req.body);
     try {
         const result = await registerUser(userData);
-        console.log(result)
         const token = auth.generateToken(result.toJSON())
         await result.save().then(
                 res.status(201).send("item saved into the database")
@@ -14,7 +13,6 @@ async function register(req, res) {
             console.log(error)
             res.status(400).send("item not saved")
         })
-        // console.log(token);
         
     } catch (error) {
         console.error(error);
