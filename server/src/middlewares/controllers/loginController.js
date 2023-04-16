@@ -3,8 +3,8 @@ const bcrypt = require('bcrypt');
 const dotenv = require('dotenv');
 const express = require('express');
 const { validateUser } = require('../../utils/validations/loginValidation')
-const session = require('express-session')
-const auth = require('../authServer')
+// const session = require('express-session')
+const auth = require('../authJwt')
 const app = express();
 
 
@@ -34,9 +34,8 @@ async function login(req, res) {
 
         // Generate JWT for the user
         const token = auth.generateToken(user.toJSON())
-        console.log(token)
-
-        res.json({ token })
+        // console.log(token)
+        res.json("sign in successful")
     } catch (error) {
         res.status(401).send(error.message);
     }

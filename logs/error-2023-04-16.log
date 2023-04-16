@@ -1,0 +1,102 @@
+2023-04-16T11:06:49.106Z [buyease-api] error: uncaughtException: Unexpected token '{'
+/home/psychval/buyease/server/src/middlewares/controllers/signupController.js:15
+        ).catch(error){
+                      ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/routes/authRoutes.js:2:22)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+2023-04-16T11:14:47.811Z [buyease-api] error: uncaughtException: Cannot find module '../../models/user'
+Require stack:
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module '../../models/user'
+Require stack:
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/routes/authRoutes.js:5:14)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-16T11:15:43.936Z [buyease-api] error: uncaughtException: Cannot find module './models/user'
+Require stack:
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module './models/user'
+Require stack:
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/routes/authRoutes.js:5:14)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-16T11:16:00.309Z [buyease-api] error: uncaughtException: Cannot find module '../../models/user'
+Require stack:
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module '../../models/user'
+Require stack:
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/routes/authRoutes.js:5:14)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-16T13:05:14.643Z [buyease-api] error: uncaughtException: missing ) after argument list
+/home/psychval/buyease/server/src/services/authService.js:35
+console.log(await registerUser(user))
+            ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/controllers/signupController.js:1:26)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+2023-04-16T13:06:03.744Z [buyease-api] error: uncaughtException: await is only valid in async function
+/home/psychval/buyease/server/src/services/authService.js:35
+await registerUser(user)
+^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/controllers/signupController.js:1:26)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)

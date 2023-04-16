@@ -1,0 +1,88 @@
+2023-04-14T07:30:57.178Z [buyease-api] error: uncaughtException: Cannot find module '../authServer'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/controllers/signupController.js
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module '../authServer'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/controllers/signupController.js
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/controllers/signupController.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-14T07:31:15.833Z [buyease-api] error: uncaughtException: Cannot find module '../authServer'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/controllers/signupController.js
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module '../authServer'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/controllers/signupController.js
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/controllers/signupController.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-14T07:35:14.531Z [buyease-api] error: uncaughtException: Cannot find module './validateUser'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/controllers/signupController.js
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+Error: Cannot find module './validateUser'
+Require stack:
+- /home/psychval/buyease/server/src/middlewares/controllers/signupController.js
+- /home/psychval/buyease/server/src/routes/authRoutes.js
+- /home/psychval/buyease/server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/middlewares/controllers/signupController.js:3:22)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+2023-04-14T07:58:49.978Z [buyease-api] error: uncaughtException: Unexpected token '}'
+/home/psychval/buyease/server/src/utils/validations/signupValidation.js:54
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/services/authService.js:3:22)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+2023-04-14T20:24:09.366Z [buyease-api] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/home/psychval/buyease/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/home/psychval/buyease/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/psychval/buyease/server/src/routes/authRoutes.js:7:8)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/home/psychval/buyease/server/app.js:29:20)
